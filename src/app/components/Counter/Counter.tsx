@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import NumberDisplay from '../NumberDisplay/NumberDisplay';
 
-// interface ChildProps {
-//     count: number;
-//     updateCount: (newCount: number) => void;
-// }
-
 export default function Counter() {
   const [count, setCount] = useState<number>(0);
   const [resetTrigger, setResetTrigger] = useState<boolean>(false);
